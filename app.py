@@ -1,7 +1,7 @@
 from flask import Flask, session, render_template, request
 
 import os
-import swimclub
+from webapp import swimclub
 
 app = Flask(__name__)
 app.secret_key = 'adiojfwoefwoinf123141PDaowipqdj'\
